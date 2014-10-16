@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-  var eventdate = new Date("2014-12-12");
+  var eventdate = new Date(2014, 11, 24);
+  // Remember that January == 0
 
   countDown();
   setInterval(countDown, 500);
