@@ -1,0 +1,66 @@
+html, body {
+  padding: 0;
+  margin:0;
+}
+body {
+  font: 14px 'Open Sans', sans-serif;
+  line-height: 100%;
+  background: #db002e;
+  color:#fff;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img { border:0; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#content {
+  padding:20px;
+  position: relative;
+}
+#content .title {
+  font-size: 200%; 
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#counter {
+  text-align: center;
+}
+#counter .number {
+  display: inline-block;
+  text-align: center;
+}
+#counter .number .outer {
+  background: #fff;
+  min-width:80px;
+  font-size: 450%;
+  line-height: 100%;
+  padding:3px;
+}
+#counter .number .inner {
+  background: #db002e;
+  border-radius: 6px;
+}
+#counter .number .label {
+  font-size: 10px;
+}
+#counter .colon {
+  display: inline-block;
+  font-size: 450%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
