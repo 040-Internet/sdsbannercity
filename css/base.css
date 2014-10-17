@@ -4,7 +4,7 @@ html, body {
   height:100%;
 }
 body {
-  font: 14px Arial, Hevetica, sans-serif;
+  font: 14px Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 100%;
   background: #db002e;
@@ -61,14 +61,14 @@ a.megalink {
   background-size: 100% auto;
   width:60px;
   height:42px;
-  font-size: 320%;
+  font-size: 285%;
   line-height: 42px;
 }
 @media(max-width: 300px) {
   #counter .number .box {
     width:45px;
     height:32px;
-    font-size: 220%;
+    font-size: 200%;
     line-height: 32px;
   }
 }
